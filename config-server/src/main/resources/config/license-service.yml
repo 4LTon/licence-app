@@ -11,6 +11,10 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
 
+server:
+  port: 0
+
+
 eureka:
   instance:
     # Адрес регистрационного центра
